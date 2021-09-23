@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+<b>Projeto para consumindo Api do Github🧡</b>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :bookmark: Sobre
 
-## Available Scripts
+O <strong> Consumo de Api</strong> é uma aplicação Web voltada para listar informações dos repositorios.
+<br>
 
-In the project directory, you can run:
+## Conceitos aprendido
 
-### `yarn start`
+### Styled components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Consumo de Api com Axios
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Components de Class
 
-### `yarn test`
+### hooks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Salvando dados no localStorage
 
-### `yarn build`
+## :heavy_check_mark: :computer:Resultado WEB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br><br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h1 align="center">
+    <img alt="Web" src="./.github/app.png" width="900px">
+</h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
+<h1 align="center">
+    <img alt="Web1" src="./.github/app1.png" width="900px">
+</h1>
 
-### `yarn eject`
+<p align="center">
+  <a href="#sobre">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Como-Contribuir">Como Contribuir</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br>
 
-## Learn More
+<a id="sobre"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a id="tecnologias-utilizadas"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :rocket: Tecnologias Utilizadas
 
-### Code Splitting
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [React](https://pt-br.reactjs.org/)
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<a id="como-usar"></a>
 
-### Making a Progressive Web App
+## :fire: Como usar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- ### **Pré-requisitos**
 
-### Advanced Configuration
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Faça um clone :
 
-### Deployment
+```sh
+  Front-End
+  git clone https://github.com/Rafael-Rufino/Consumindo-api-do-github-com-React.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Executando a Aplicação:
+
+```sh
+  # Instale as dependências
+  $ npm install
+  #ou
+  $ yarn
+
+
+  # Inicie a aplicação web
+  $ cd primeiroApp
+  $ npm run start
+  # ou
+  $ yarn start
+
+
+
+  # Acessar o Servidor no Navegador
+  $ http://127.0.0.1:3000/
+
+  # Porta de Acesso Liberado
+  $ 3000
+
+
+
+```
+
+<a id="Como-Contribuir"></a>
+
+## :recycle: Como contribuir
+
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+
+🎓 **Quem ministrou?**
+
+As aulas foram ministradas pelo mestre
+Diego Fernandes - Instructor - Rocketseat
+
+📝 **License**
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+<h4 align="center">
+    Feito com 💜 by <a href="https://www.linkedin.com/in/rafael-r-dos-santos-b889311ba/" target="_blank">Rafael Rufino</a>
+</h4>
